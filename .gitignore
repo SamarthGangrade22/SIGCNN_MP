@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+*.ckpt
+.DS_Store
+.env
+gnn_env/
+.idea/
+.vscode/
+
+

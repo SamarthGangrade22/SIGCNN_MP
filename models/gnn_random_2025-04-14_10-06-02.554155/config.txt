@@ -1,0 +1,14 @@
+description = None
+ppi_path = data/protein.actions.SHS27k.STRING.txt
+pseq_path = data/protein.SHS27k.sequences.dictionary.tsv
+vec_path = data/vec5_CTC.txt
+split_new = True
+split_mode = random
+train_valid_index_path = data/train_valid_index_random.pkl
+use_lr_scheduler = None
+save_path = models
+graph_only_train = None
+batch_size = 64
+epochs = 30
+
+train gnn, train_num: 6099, valid_num: 1525
